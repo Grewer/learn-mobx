@@ -1,4 +1,3 @@
-## hooks 全局存储解决方案
-插件 react-hooks-redux-store
+## learn-mobX
 
-//npm i @types/styled-components@4.1.8 --save-dev --save-exact
+对于 mobX 模式的学习
