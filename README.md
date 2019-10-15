@@ -7,3 +7,5 @@
 用mobX和mobX-react代替redux和react-redux
 
 
+// todo 
+class 的类型推断

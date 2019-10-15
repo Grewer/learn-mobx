@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { inject, observer } from 'mobx-react';
+import AsyncFetchTest from "./asyncFetchTest";
 
 @inject('store')
 @observer
@@ -20,6 +21,7 @@ class App extends React.Component<any> {
       <div>{store.firstState}</div>
       <div>{store.firstStateChange}</div>
       <button onClick={() => store.onClick(123)}>change Value</button>
+      <AsyncFetchTest/>
     </div>
   }
 }
